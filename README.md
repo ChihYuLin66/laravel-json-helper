@@ -2,6 +2,12 @@
 
 
 # install
+
+install via composer 
+```bash 
+composer require chihyulin66/laravel-json-helper
+```
+
 if you want to register it yourself, add the ServiceProvider in `config/app.php`:
 ```php
 'providers' => [
