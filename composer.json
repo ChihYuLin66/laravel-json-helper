@@ -1,0 +1,21 @@
+{
+    "name": "chihyulin66/laravel-json-helper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChihYuLin66\\LaravelJsonHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChihYuLin66",
+            "email": "chihyulin66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*",
+        "illuminate/support": "5"
+    }
+}
