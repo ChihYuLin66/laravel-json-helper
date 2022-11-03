@@ -18,6 +18,6 @@
         "ext-json": "*"
     },
     "require-dev": {
-        "illuminate/support": "5"
+        "illuminate/support": "^5"
     }
 }
