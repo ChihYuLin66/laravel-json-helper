@@ -1,14 +1,16 @@
 # laravel-json
 
+## introduction
+I just want json encode/decode beautifully.
 
-# install
+## install
 
-install via composer 
+Install the package via composer
 ```bash 
 composer require chihyulin66/laravel-json-helper
 ```
 
-if you want to register it yourself, add the ServiceProvider in `config/app.php`:
+Add Provider to `config/app.php`:
 ```php
 'providers' => [
     /*
@@ -17,7 +19,8 @@ if you want to register it yourself, add the ServiceProvider in `config/app.php`
    ChihYuLin66\LaravelJsonHelper\JsonServiceProvider::class
 ]
 ```
-If you want to add it manually, add the Facade in `config/app.php`:
+
+Add the Facade in `config/app.php`:
 
 ```php
 'aliases' => [
@@ -25,7 +28,6 @@ If you want to add it manually, add the Facade in `config/app.php`:
     'Json' => ChihYuLin66\LaravelJsonHelper\JsonFacade::class,
 ]
 ```
-
 
 ## Usage
 

@@ -8,14 +8,14 @@ require 'vendor/autoload.php';
 
 use ChihYuLin66\LaravelJsonHelper\Json;
 
-$json = 'aaa';
+$fruits = array("Apple", "Banana", "Orange");
 
-$json = Json::encode(['a' => 'a']);
-
-$dejson = Json::decode($json, true);
+$json = Json::encode($fruits);
+$fs = Json::decode($json);
 
 
 var_dump(
-
-    app('json')->encode(['a' => 'a'])
+    $json,
+    $fs
+    // app('json')->encode(['a' => 'a'])
 );
