@@ -15,7 +15,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ext-json": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
         "illuminate/support": "5"
     }
 }
